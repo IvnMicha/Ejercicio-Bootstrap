@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: auto;
+    padding: 2em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    color: white;
+    font-size: 30px;
+}
+.row {
+    padding: 1rem;
+}
+.barra {
+    background-color: salmon;
+}
+.cajaBorde {
+    border: 2px salmon solid;
+
+}
+.imagen {
+    width: 100%;
+}
+.caja {
+    border: 2px salmon solid;
+    margin: 1em;
+    border-radius: 10px;
+}
+.caja1 {
+    margin: 1em;
+}
+.abajo {
+    padding-bottom: 20px;
+}
+.boton {
+    border: 2px salmon solid;
+    background-color: salmon;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 5px;
+}
+.boton:hover {
+    border: 2px rgb(187, 60, 60) solid;
+    background-color: rgb(187, 60, 60);
+    color: black;
+}
+.slider-container {
+    display: flex;
+    width: 90%;
+    overflow-x: scroll;
+}
